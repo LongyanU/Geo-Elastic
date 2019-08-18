@@ -15,7 +15,7 @@ hold  on;plot(seis_recordVx(1:1600,65),'k')
 tt2=seis_recordVx;
 
 tt3=tt2-tt;
-hold on;plot(sign(real(tt3(1:1600,65))) .*sqrt(real(tt3(1:1600,65)).^2+ imag(tt3(1:1600,65)).^2) -0.001 ,'m')  %-0.2*10^-3
+hold on;plot(sign(real(tt3(1:1600,65))) .*sqrt(real(tt3(1:1600,65)).^2+ imag(tt3(1:1600,65)).^2) -0.0004 ,'m')  %-0.2*10^-3
 
 legend('Tra FD scheme','Non-balanced FD scheme', 'The difference between the 2 schemes');
 title('')
