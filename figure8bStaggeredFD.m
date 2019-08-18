@@ -136,7 +136,7 @@ z=(0:(nz-1))*dx;  % initialize space coordinates
 dt=0.001; % calculate time step from stability criterion
 tau=dt;
 
-f0=78;
+f0=68;
 t=(1:nt)*dt;
 t0=4/f0;                       % initialize time axis
 src=10^2*exp(-f0^2*(t-t0).*(t-t0));              % source time function
