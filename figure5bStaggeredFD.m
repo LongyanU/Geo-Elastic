@@ -2,7 +2,7 @@
 % then run figure6acompareSeimogramsVx,figure6bCompareSeis_recordVx; figure6cCompareSeis_recordTxx,
 % figure6dcompareSeimogramsTxx to get the figures in figure 5 and figure 6. 
 % This is only for the convenient of the reviewers.
-% ʱ���ѹ� 3.939464 �롣
+% Ê±¼äÒÑ¹ý 3.939464 Ãë¡£
 clear;
 clc
 close all;
@@ -22,7 +22,7 @@ vp=zeros(nz,nx);
 
 vs=vp;
 rou=vp;
-f0=78;
+f0=68;
 t=(1:nt)*dt;
 t0=4/f0;                       % initialize time axis
 src=10^2*exp(-f0^2*(t-t0).*(t-t0));              % source time function
